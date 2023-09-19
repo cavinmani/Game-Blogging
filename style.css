@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#header{
+    height: 100vh;
+    background-image: url(Images/home.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    margin: right 100px; ;
+    margin-left: 100px;
+}
+.logo{
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 230px;
+}
+.logo2{
+    width:50%;
+    position: absolute;
+    margin-left: 25%;
+    top: 20%;
+
+}
+.header-text{
+    max-width: 350px;
+    margin-top: 70px;
+}
+h1{
+    font-size: 34px;
+    color: rgb(51,204,204);
+}
+p{
+    margin-top: 15px;
+    text-align: justify;
+}
+.square-1{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: rgb(56, 189, 189);
+    margin: 5px 0;
+     
+}
+.square-2{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: rgb(37, 223, 223);
+    margin: 5px 0;
+     
+}
+.square-3{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: rgb(3, 248, 248);
+    margin: 5px 0;
+     
+}
+
+#sidenav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: rgb(51,204,204);
+    z-index: 2;
+    transition: 1s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+#menubtn{
+    width: 40px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+/* Top Games */
+
+
+#games{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.games-left-col {
+    flex-basis: 50%;
+}
+.games-left-col img{
+    width: 100%;
+}
+.games-right-col{
+    flex-basis: 50%;
+    text-align: right;
+}
+.games-text{
+     max-width: 500px;
+     margin-right: 100px;
+     display: inline-block;
+}
+.g1:hover,.g2:hover,.g3:hover,.g4:hover,.g5:hover,.g6:hover,.g7:hover,.g8:hover
+{
+  border: 3px solid rgb(3, 248, 248);
+}
+.g1{
+    width: 15%;
+}
+.g2{
+    width: 15%;
+    margin-right: 100px;
+}
+.g3{
+    width: 15%;
+}
+.g4{
+    width: 15%;
+    margin-right: 100px;
+}
+.g5{
+    width: 15%;
+}
+.g6{
+    width: 15%;
+    margin-right: 100px;
+}
+
+
+/* Categories */
+
+#categories{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.categories-left-col {
+    flex-basis: 50%;
+}
+.categories-left-col img{
+    width: 100%;
+}
+.categories-right-col{
+    flex-basis: 50%;
+    text-align: right;
+}
+.categories-text{
+     max-width: 500px;
+     margin-right: 100px;
+     display: inline-block;
+}
+.categories-text h2{
+    text-align: justify;
+    font-size: 28px;
+    font-style: italic;
+}
+.action-btn{
+    margin-top: 50px;
+    margin-left: 70px;
+    position: absolute;
+    align-items: right;
+    justify-content: right;
+  }
+  .common-btn{
+    padding: 14px 30px;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgb(51,204,204);
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+  .common-btn:hover{
+    border:  1px solid rgb(51,204,204);
+    color: whitesmoke;
+    background: rgb(51,204,204);
+    transition: .5s;
+  }
+
+
+/* About */
+
+#about{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col {
+    flex-basis: 50%;
+}
+.about-left-col img{
+    width: 100%;
+}
+.about-right-col{
+    flex-basis: 50%;
+    text-align: right;
+}
+.about-text{
+     max-width: 500px;
+     margin-right: 100px;
+     display: inline-block;
+}
+.about-text h2{
+    text-align: justify;
+    font-size: 28px;
+    font-style: italic;
+}
+.about-text h3{
+    font-size: 20px;
+    font-style: italic;
+    color: #797979;
+}
+
+/* Footer */
+
+#footer{
+    padding: 50px 0 30px;
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-top: 1px solid rgb(37, 223, 223);
+}
+h4{
+    margin-left: 30px;
+    margin-top: 12px;
+}
+.facebook{
+    width: 35px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.instagram{
+    width: 35px;
+    margin-left: 15px;
+}
+.linkedin{
+    width: 35px;
+    margin-left: 15px;
+}
+
+
+
+/* Media Query */
+
+@media only screen and (max-width: 770px){
+    #header{
+        height: 100vh;
+        background-image: none;
+        
+    }
+    .container{
+        margin-right: 25px; ;
+        margin-left: 25px;
+    }
+    .logo{
+        margin-left: 0px;
+        margin-top: 50px;
+        width: 100px;
+    }
+    .logo2{
+        display: none;    
+    }
+    .header-text{
+        max-width: 290px;
+        margin-top: 60px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    p{
+        font-size: 12px;
+        text-align: justify;
+    }
+    #menubtn{
+        width: 40px;
+        position: fixed;
+        right: 20px;
+        top: 35px;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    /* Top games */
+
+    .games-left-col,.games-right-col {
+        flex-basis: 100%;
+    }
+    .games-text{
+        margin: 50px 50px 0;
+        display: inline-block;
+   }
+   .g1{
+    width: 25%;
+    }
+    .g2{
+        width: 25%;
+    }
+    .g3{
+        width: 25%;
+    }
+    .g4{
+        width: 25%;
+    }
+    .g5{
+        width: 25%;
+    }
+    .g6{
+        width: 25%;
+    }
+    .g7{
+        width: 25%;
+    }
+    .g8{
+        width: 25%;
+    }
+
+    /* Categories */
+    .categories-left-col,.categories-right-col {
+        flex-basis: 100%;
+    }
+    .categories-text{
+        margin: 50px 50px 0;
+        display: inline-block;
+   }
+   .categories-text h2{
+       font-size: 18px;
+   }
+
+    /* About */
+
+    .about-left-col,.about-right-col {
+        flex-basis: 100%;
+    }
+    .about-text{
+        margin: 50px 50px 0;
+        display: inline-block;
+   }
+   .about-text h2{
+       font-size: 18px;
+   }
+
+   /* Footer */
+
+    #footer{
+        padding: 50px 50px 0;
+        margin-bottom: 120px;
+    }
+    hr{
+        width: 130%;
+    }
+    h5{
+        margin-left: 50px;
+        margin-top: 12px;
+    }
+    .facebook{
+        width: 30px;
+        margin-left: 40px;
+        margin-top: 16px;
+    }
+    .instagram{
+        width: 30px;
+    }
+    .linkedin{
+        width: 30px;
+        margin-left: 15px;
+    }
+}
+
+
+
+
+
+

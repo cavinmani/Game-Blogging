@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Sample
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section id="header">
+            <div class="container">
+                <img src="Images/logo.png" class="logo">
+                <img src="Images/logo2.png" class="logo2">
+                <div class="header-text">
+                    <h1>Mobile Game Blogging</h1>
+                    <span class="square-1"></span>
+                    <span class="square-2"></span>
+                    <span class="square-3"></span>
+                    <p>
+                        A <b>Mobile Game</b>, or <b>Smartphone Game</b>, is a video game that is typically played on 
+                        a mobile phone. The term also refers to all games that are played on any portable 
+                        device, including from mobile phone (feature phone or smartphone), tablet, PDA to 
+                        handheld game console, portable media player or graphing calculator, with and without 
+                        network availability.<br><br>
+                        Playing games that help children test their strategic thinking and awareness of their 
+                        wider environment can help <b>boost memory, spatial awareness and problem-solving</b>. In some 
+                        cases playing games can also improve dexterity in younger children.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <nav id="sidenav">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#games">Top Games</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <img src="Images/menu.png" id="menubtn">  
+
+<!-- Top Games -->
+
+<section id="games">
+    <div class="games-left-col">
+        <img src="Images/game.png">
+    </div>
+    <div class="games-right-col">
+        <div class="games-text">
+            <h1>Our Top Games</h1><br>
+            <span class="square-1"></span>
+            <span class="square-2"></span>
+            <span class="square-3"></span><br>
+        </div><br><br><br>
+        <div class="top-games">
+            <a href="bgmi.html"><img class="g1" src="Images/bgmi.jpeg"></a>
+            <a href="freefire.html"><img class="g2" src="Images/ff.png"></a><br><br>
+            <a href="coc.html"><img class="g3" src="Images/coc.jpeg"></a>
+            <a href="cod.html"><img class="g4" src="Images/cod.webp"></a><br><br>
+            <a href="templerun.html"><img class="g5" src="Images/tr.jpeg"></a>
+            <a href="angrybirds.html"><img class="g6" src="Images/ab.jpg"></a>
+
+        </div>
+    </div>
+</section>
+
+<!-- Categories -->
+<section id="categories">
+    <div class="categories-left-col">
+        <img src="Images/categories.png">
+    </div>
+    <div class="categories-right-col">
+        <div class="categories-text">
+            <h1>Categories</h1><br>
+            <p>Failure doesn't mean the game is over, it means try again with experience. 
+            </p><br>
+            <span class="square-1"></span>
+            <span class="square-2"></span>
+            <span class="square-3"></span><br>
+            <h2>
+                Click the below button to see gaming categories.
+            </h2><br>
+            <div class="action-btn">
+                <a href="categories.html" class="common-btn">Click to View Games</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- About -->
+
+<section id="about">
+    <div class="about-left-col">
+        <img src="Images/about.png">
+    </div>
+    <div class="about-right-col">
+        <div class="about-text">
+            <h1>About Us</h1><br>
+            <p>A game is to play to refresh oru mindset and that makes an joyfull to all. 
+            </p><br>
+            <span class="square-1"></span>
+            <span class="square-2"></span>
+            <span class="square-3"></span><br>
+            <h2>
+                The greatest glory in living lies not in never falling, but in rising every time we fall. 
+            </h2><br>
+            <h3>-Nelson Mandela</h3>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+
+    <section id="footer">
+        <div class="container">
+            <hr>
+            <h4>
+                To follow me
+            </h4>
+        </div>
+            <div class="social media">
+                <a href="https://www.facebook.com/cavin.kb"><img class="facebook" src="Images/facebook.png"></a>
+                <a href="https://www.instagram.com/cavin.kb/"><img class="instagram" src="Images/instagram.png"></a>
+                <a href="https://www.linkedin.com/in/cavin-k-b-65630621a"><img class="linkedin" src="Images/linkedin.png"></a>
+        </div>
+    </section>
+
+<!-- Side nav script -->
+
+        <script>
+            var menubtn = document.getElementById("menubtn");
+            var sidenav = document.getElementById("sidenav");
+
+            sidenav.style.right = "-250px";
+            menubtn.onclick = function(){
+                if(sidenav.style.right == "-250px"){
+                    sidenav.style.right = "0";
+                }
+                else{
+                    sidenav.style.right = "-250px";
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Brain Out
+        </title>
+    </head>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header-text{
+    max-width: 1000px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+h1{
+    font-size: 34px;
+    color: rgb(48,219,219);
+}
+h2{
+    font-size: 26px;
+    color: rgb(48, 219, 219);
+}
+a{
+    float: right;
+}
+.square-1{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: rgb(83, 180, 180);
+    margin: 15px 0;
+     
+}
+.square-2{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: rgb(48, 219, 219);
+    margin: 15px 0;
+     
+}
+.square-3{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: rgb(6, 240, 240);
+    margin: 15px 0;
+     
+}
+p{
+    text-align: justify;
+}
+img{
+    display: inline-block;
+    margin-bottom: 50px;
+    width: 45%;
+}
+.action-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .common-btn{
+    padding: 14px 30px;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgb(51,204,204);
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+  .common-btn:hover{
+    border:  1px solid rgb(51,204,204);
+    color: whitesmoke;
+    background: rgb(51,204,204);
+    transition: .5s;
+  }
+
+/* Media Query */
+
+@media (max-width: 858px){
+        .header-text{
+            max-width: 280px;
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+        .header-text p{
+          margin-top: 30px;
+        }
+        h3{
+            top: 930px;
+            left: 50px;
+          }
+          img{
+            width: 300px;
+        }
+        .action-btn{
+            margin-bottom: 150px;
+          }
+
+    }
+    </style>
+    <body>
+            <div class="header-text">
+                <h1>Brain Out</h1>
+                <span class="square-1"></span>
+                <span class="square-2"></span>
+                <span class="square-3"></span>
+                <p>
+                    Puzzle games focus on completion, which requires players to solve a logic puzzle or 
+                    navigate a challenge to progress to the next, more difficult challenge. Depending on 
+                    the puzzle game type, it may involve playing with multiple players, but typically, 
+                    puzzle games are played solo.
+                </p><br>
+                <a href="https://www.plonga.com/teaser/Brain-Out-Game-Online">Offical Site></a><br>
+                <h2>Game Play:-</h2><br>
+                    <img src="Images/brain1.webp">
+                    <img src="Images/brain2.webp">
+            </div>
+            <div class="action-btn">
+                <a href="puzzle.html" class="common-btn">Back</a>
+            </div>
+
+    </body>
+</html>

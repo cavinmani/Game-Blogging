@@ -1,0 +1,152 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Royal Match
+        </title>
+    </head>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header-text{
+    max-width: 1000px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+h1{
+    font-size: 34px;
+    color: rgb(48,219,219);
+}
+h2{
+    font-size: 26px;
+    color: rgb(48, 219, 219);
+}
+a{
+    float: right;
+}
+.square-1{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: rgb(83, 180, 180);
+    margin: 15px 0;
+     
+}
+.square-2{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: rgb(48, 219, 219);
+    margin: 15px 0;
+     
+}
+.square-3{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: rgb(6, 240, 240);
+    margin: 15px 0;
+     
+}
+p{
+    text-align: justify;
+}
+img{
+    display: inline-block;
+    margin-bottom: 50px;
+    width: 45%;
+}
+.list{
+    text-align: left;
+  }
+  
+  ul.myUL {
+    display: inline-block;
+    text-align: left;
+  }  
+.action-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .common-btn{
+    padding: 14px 30px;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgb(51,204,204);
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+  .common-btn:hover{
+    border:  1px solid rgb(51,204,204);
+    color: whitesmoke;
+    background: rgb(51,204,204);
+    transition: .5s;
+  }
+
+/* Media Query */
+
+@media (max-width: 858px){
+        .header-text{
+            max-width: 280px;
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+        .header-text p{
+          margin-top: 30px;
+        }
+        h3{
+            top: 930px;
+            left: 50px;
+          }
+          img{
+            width: 300px;
+        }
+        .action-btn{
+            margin-bottom: 150px;
+          }
+
+    }
+    </style>
+    <body>
+            <div class="header-text">
+                <h1>Royal Match</h1>
+                <span class="square-1"></span>
+                <span class="square-2"></span>
+                <span class="square-3"></span>
+                <p>
+                    Royal Match is a free-to-play game with thousands of levels and many areas where King 
+                    Robert needs help restoring the Royal Castle's former glory. There are tremendous rewards 
+                    from various events and unique bonus levels.<br><br>
+                    In Royal Match, you can join a team and get help from teammates. Both as a team and 
+                    individually, you can compete in local and global tournaments.
+                </p><br>
+                <a href="https://dreamgames.com/games/">Offical Site></a><br>
+                <h2>Game Play:-</h2><br>
+                    <img src="Images/ludo1.webp">
+                    <img src="Images/ludo2.webp">
+                    <div class="list">
+                        <ul class="myUL">
+                          <li>In Royal Match, you need to complete one or more targets to beat levels. These targets are shown in the upper left part of the gameplay screen.</li><br>
+                          <li>In order to complete the given targets, you need to match 3 or more same-colored items or hit them with power-ups or boosters.</li><br>
+                          <li>While beating levels, you will earn stars with which you can renovate and upgrade areas in the castle.</li><br>
+                          <li>You earn coins and boosters from events or by completing tasks and claiming their rewards.</li><br>
+                          <li>For each level, you have a certain number of moves, which is indicated in the upper-right corner of the screen</li><br>
+                          <li>When you run out of moves before completing targets, you will fail the level and have to try again. You can use coins to buy boosters, lives, and additional moves in a level.</li>
+                        </ul>
+                      </div><br>
+            </div>
+            <div class="action-btn">
+                <a href="puzzle.html" class="common-btn">Back</a>
+            </div>
+
+    </body>
+</html>

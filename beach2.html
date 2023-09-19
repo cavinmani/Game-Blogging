@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Beach Buggy 2
+        </title>
+    </head>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header-text{
+    max-width: 1000px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+h1{
+    font-size: 34px;
+    color: rgb(48,219,219);
+}
+h2{
+    font-size: 26px;
+    color: rgb(48, 219, 219);
+}
+a{
+    float: right;
+}
+.square-1{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: rgb(83, 180, 180);
+    margin: 15px 0;
+     
+}
+.square-2{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: rgb(48, 219, 219);
+    margin: 15px 0;
+     
+}
+.square-3{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: rgb(6, 240, 240);
+    margin: 15px 0;
+     
+}
+p{
+    text-align: justify;
+}
+img{
+    display: inline-block;
+    margin-bottom: 50px;
+    width: 45%;
+}
+.action-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .common-btn{
+    padding: 14px 30px;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgb(51,204,204);
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+  .common-btn:hover{
+    border:  1px solid rgb(51,204,204);
+    color: whitesmoke;
+    background: rgb(51,204,204);
+    transition: .5s;
+  }
+
+/* Media Query */
+
+@media (max-width: 858px){
+        .header-text{
+            max-width: 280px;
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+        .header-text p{
+          margin-top: 30px;
+        }
+        h3{
+            top: 930px;
+            left: 50px;
+          }
+          img{
+            width: 300px;
+        }
+        .action-btn{
+            margin-bottom: 150px;
+          }
+
+    }
+    </style>
+    <body>
+            <div class="header-text">
+                <h1>Beach Buggy 2</h1>
+                <span class="square-1"></span>
+                <span class="square-2"></span>
+                <span class="square-3"></span>
+                <p>
+                    Beach Buggy Blitz is a racing video game developed and published by Vector Unit for Android, 
+                    iOS and BlackBerry.
+                </p><br>
+                <a href="https://www.vectorunit.com/beach-buggy-racing-2">Offical Site></a><br>
+                <h2>Game Play:-</h2><br>
+                    <img src="Images/bug21.webp">
+                    <img src="Images/bug22.webp">
+                    <p>
+                        Beach Buggy Blitz is built around an "infinite drive" mechanic that challenges you 
+                        to drive as far as possible. You can collect coins along the way to upgrade or paint 
+                        your car, unlock new vehicles and drivers, even customize the game itself with new 
+                        powerups and consumables.
+                    </p><br>
+            </div>
+            <div class="action-btn">
+                <a href="racing.html" class="common-btn">Back</a>
+            </div>
+
+    </body>
+</html>

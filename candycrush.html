@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Candy Crush
+        </title>
+    </head>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header-text{
+    max-width: 1000px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+h1{
+    font-size: 34px;
+    color: rgb(48,219,219);
+}
+h2{
+    font-size: 26px;
+    color: rgb(48, 219, 219);
+}
+a{
+    float: right;
+}
+.square-1{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: rgb(83, 180, 180);
+    margin: 15px 0;
+     
+}
+.square-2{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: rgb(48, 219, 219);
+    margin: 15px 0;
+     
+}
+.square-3{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: rgb(6, 240, 240);
+    margin: 15px 0;
+     
+}
+p{
+    text-align: justify;
+}
+img{
+    display: inline-block;
+    margin-bottom: 50px;
+    width: 45%;
+}
+.action-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .common-btn{
+    padding: 14px 30px;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgb(51,204,204);
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+  .common-btn:hover{
+    border:  1px solid rgb(51,204,204);
+    color: whitesmoke;
+    background: rgb(51,204,204);
+    transition: .5s;
+  }
+
+/* Media Query */
+
+@media (max-width: 858px){
+        .header-text{
+            max-width: 280px;
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+        .header-text p{
+          margin-top: 30px;
+        }
+        h3{
+            top: 930px;
+            left: 50px;
+          }
+          img{
+            width: 300px;
+        }
+        .action-btn{
+            margin-bottom: 150px;
+          }
+
+    }
+    </style>
+    <body>
+            <div class="header-text">
+                <h1>Candy Crush</h1>
+                <span class="square-1"></span>
+                <span class="square-2"></span>
+                <span class="square-3"></span>
+                <p>
+                    Candy Crush Saga is a free-to-play tile-matching video game released by King on April 12, 
+                    2012, originally for Facebook; other versions for iOS, Android, Windows Phone, and Windows 10 
+                    followed. It is a variation of their browser game Candy Crush.<br><br>
+                    In the game, players complete levels by swapping colored pieces of candy on a game board to 
+                    make a match of three or more of the same color, eliminating those candies from the board 
+                    and replacing them with new ones, which could potentially create further matches. Matches 
+                    of four or more candies create unique candies that act as power-ups with larger board-clearing 
+                    abilities. Boards have various goals that must be completed within a fixed number of moves, 
+                    such as collecting a specific number of a type of candy.<br><br>
+                    Around 2014, over 93 million people were playing Candy Crush Saga, while revenue over a 
+                    three-month period as reported by King was over $493 million. Five years after its release 
+                    on mobile, the Candy Crush Saga series has received over 2.7 billion downloads, and the game 
+                    has been one of the highest-grossing and most-played mobile apps in that time frame.
+                </p><br>
+                <a href="https://www.king.com/game/candycrush">Offical Site></a><br>
+                <h2>Game Play:-</h2><br>
+                    <img src="Images/candy1.jpg">
+                    <img src="Images/candy2.jpg">
+                <p>
+                    Candy Crush Saga is a "match three" game, where the core gameplay is based on swapping 
+                    two adjacent candies among several on the gameboard to make a row or column of at least 
+                    three matching-colored candies. On this match, the matched candies are removed from the 
+                    board, and candies above them fall into the empty spaces, with new candies appearing from 
+                    the top of the board. This may create a new matched set of candies, which is automatically 
+                    cleared in the same manner. The player scores points for these matches and gains progressively 
+                    more points for chain reactions (called cascades). Additionally, creating matches of four 
+                    or more candies will create a special candy that, when matched, can clear a row, column, or 
+                    other section of the board.<br><br>
+                    The game is split into many levels, which must be completed in sequence. Each level poses a 
+                    different challenge to the user, such as removing jelly on tiles or clearing candies in a 
+                    fixed number of moves to bring special ingredients to the bottom of the board. Boards have 
+                    a number of different configurations and may include special spaces that have their own 
+                    unique rules, such as spaces covered with jelly that must be cleared by making a match on 
+                    that space. If the player meets the level's goal, they will be given from one, two, 
+                    three or sugar stars based on their score and can proceed onto the next level. Otherwise, 
+                    they will lose one life and must try again. If the player runs out of lives, they have to 
+                    wait for some period of real-world time while their lives regenerate before attempting the 
+                    level again.[4] Completed levels can be replayed if desired.
+                </p><br>
+            </div>
+            <div class="action-btn">
+                <a href="puzzle.html" class="common-btn">Back</a>
+            </div>
+
+    </body>
+</html>
